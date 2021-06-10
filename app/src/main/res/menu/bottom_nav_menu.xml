@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home_awal"
+        android:icon="@drawable/ic_baseline_fastfood_24"
+        android:title="@string/title_menu" />
+
+    <item
+        android:id="@+id/navigation_qr"
+        android:icon="@drawable/ic_baseline_qr_code_scanner_24"
+        android:title="@string/title_qr" />
+
+</menu>

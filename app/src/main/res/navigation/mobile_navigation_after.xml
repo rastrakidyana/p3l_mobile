@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation_after"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.p3l_apk_rastar.ui.menu.MenuFragment"
+        android:label="@string/title_menu"
+        tools:layout="@layout/fragment_menu" >
+        <action
+            android:id="@+id/action_navigation_home_to_keranjangFragment"
+            app:destination="@id/keranjangFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_dashboard"
+        android:name="com.example.p3l_apk_rastar.ui.pesanan.PesananFragment"
+        android:label="@string/title_pesanan"
+        tools:layout="@layout/fragment_pesanan" />
+
+    <fragment
+        android:id="@+id/navigation_notifications"
+        android:name="com.example.p3l_apk_rastar.ui.user.UserFragment"
+        android:label="@string/title_user"
+        tools:layout="@layout/fragment_user" />
+
+    <fragment
+        android:id="@+id/keranjangFragment"
+        android:name="com.example.p3l_apk_rastar.ui.menu.KeranjangFragment"
+        android:label="KeranjangFragment"
+        tools:layout="@layout/fragment_keranjang" >
+        <action
+            android:id="@+id/action_navigation_keranjangFragment_to_dashboard"
+            app:destination="@id/navigation_dashboard" />
+    </fragment>
+</navigation>

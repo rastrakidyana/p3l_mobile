@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Atma Korean BBQ</string>
+    <string name="title_menu">Menu</string>
+    <string name="title_pesanan">Pesanan</string>
+    <string name="title_user">Pengguna</string>
+    <string name="title_qr">Scan QR</string>
+    <string name="title_keranjang">Keranjang</string>
+    <string name="keranjang">Lihat Keranjang</string>
+    <string name="tambah_keranjang">Tambahkan Ke Keranjang</string>
+    <string name="rupiah">Rp</string>
+    <string name="title_activity_main_after_qr">MainAfterQrActivity</string>
+    <string name="caption_judul_qr">Selamat Datang Di Atma Korean BBQ</string>
+    <string name="caption_qr">Scan Code QR Untuk Melanjutkan Pemesanan</string>
+    <string name="search">Cari Menu</string>
+    <string name="qty">Qty</string>
+    <string name="subt">Subtotal</string>
+    <string name="total">Total</string>
+    <string name="checkout">Pesanan Selesai</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello Square World!</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
